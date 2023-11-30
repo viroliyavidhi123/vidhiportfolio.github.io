@@ -16,7 +16,7 @@
 
 *::selection{
     background:var(--yellow);
-    color:#333;
+    color:#fff;
 }
 
 html{
@@ -52,7 +52,7 @@ section{
     background:#333;
     color:#fff;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-top: 5rem;
     font-size: 2rem;
     border-radius: 5rem;
 }
@@ -149,7 +149,9 @@ header .navbar ul li a:hover{
     z-index: 1000;
     display: none;
 }
-
+.home a{color: var(--yellow) !important; text-decoration: underline;}
+.home p{letter-spacing: 0.20px; line-height: 29px; font-weight: 300;}
+.project{font-size: 20px !important; color: var(--yellow) !important;}
 .home{
     display: flex;
     justify-content: center;
